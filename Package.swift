@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "DogahePlaces",
             dependencies: []),
-        .binaryTarget(name: "GooglePlaces", url: "https://github.com/dogahe/DogahePlaces/releases/download/1.0.0/GooglePlaces.xcframework.zip", checksum: "d4c327d51a1be2ffd2dbefea9e369205c1103023956eaa36ad72e625d6fa939f"),
+        .binaryTarget(name: "GooglePlaces", url: "https://github.com/dogahe/DogahePlaces/releases/download/1.0.0/GooglePlaces.zip", checksum: "d4c327d51a1be2ffd2dbefea9e369205c1103023956eaa36ad72e625d6fa939f"),
         .testTarget(
             name: "DogahePlacesTests",
             dependencies: ["DogahePlaces"]),
