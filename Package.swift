@@ -23,11 +23,10 @@ let package = Package(
             dependencies: [.target(name: "GooglePlaces")],
             path: "GooglePlacesTarget"
         ),
-        .binaryTarget(name: "GooglePlaces", url: "https://github.com/dogahe/DogahePlaces/releases/download/1.0.0/GooglePlacesWithInfoPlistVersion3.zip", checksum: "033a35eeed18e2c95de940c9f7ef4fbd3d71ff4b48ddec772cd11f1b2d2e4b64"),
+        .binaryTarget(name: "GooglePlaces", url: "https://github.com/dogahe/DogahePlaces/releases/download/1.0.0/GooglePlacesWithInfoPlistMinusResources.zip", checksum: "a47d5e4cf336d5eb5127332948da08b55773696041f723bb506f85edb3d53c25"),
     ]
 )
 
-// d4c327d51a1be2ffd2dbefea9e369205c1103023956eaa36ad72e625d6fa939f
 /*
  .binaryTarget(name: "GooglePlaces", url: "https://github.com/dogahe/DogahePlaces/releases/download/1.0.0/GooglePlaces.zip", checksum: "bb4705e64801cf2bfb644c324c73ca3901d5eefadcec34a84d2144592f79edc8"),
  
@@ -37,6 +36,8 @@ let package = Package(
  .binaryTarget(name: "GooglePlaces", url: "https://github.com/dogahe/DogahePlaces/releases/download/1.0.0/GooglePlacesWithInfoPlist.zip", checksum: "bb4705e64801cf2bfb644c324c73ca3901d5eefadcec34a84d2144592f79edc8"),
  
  .binaryTarget(name: "GooglePlaces", url: "https://github.com/dogahe/DogahePlaces/releases/download/1.0.0/GooglePlacesWithInfoPlistVersion2.zip", checksum: "7fc95e8145666adabd7826ad49c26e3352b3bf4c30ffc67f1a9c042fa0bf3f17"),
+ 
+ .binaryTarget(name: "GooglePlaces", url: "https://github.com/dogahe/DogahePlaces/releases/download/1.0.0/GooglePlacesWithInfoPlistVersion3.zip", checksum: "033a35eeed18e2c95de940c9f7ef4fbd3d71ff4b48ddec772cd11f1b2d2e4b64"),
  */
 
 
