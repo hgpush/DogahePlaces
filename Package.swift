@@ -21,7 +21,10 @@ let package = Package(
         .target(
             name: "GooglePlacesTarget",
             dependencies: [.target(name: "GooglePlaces")],
-            path: "GooglePlacesTarget"
+            path: "GooglePlacesTarget",
+            resources: [
+                .copy("ss.png")
+            ]
         ),
         .binaryTarget(name: "GooglePlaces", url: "https://github.com/dogahe/DogahePlaces/releases/download/1.0.0/GooglePlacesWithInfoPlistMinusResources.zip", checksum: "a47d5e4cf336d5eb5127332948da08b55773696041f723bb506f85edb3d53c25"),
     ]
