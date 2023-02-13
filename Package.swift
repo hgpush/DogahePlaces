@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "GooglePlacesTarget",
             dependencies: [.target(name: "GooglePlaces")],
-            path: "GooglePlacesTarget",
+            path: "GooglePlacesTarget", 
             resources: [
                 .copy("ss.png")
             ]
