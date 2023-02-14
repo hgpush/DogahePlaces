@@ -9,4 +9,8 @@ import Foundation
 
 struct GooglePlacesTarget {
   let imageURL = Bundle.module.url(forResource: "ss", withExtension: "png")
+  
+  public func getImageUrl() -> URL? {
+    return imageURL
+  }
 }
