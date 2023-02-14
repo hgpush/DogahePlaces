@@ -18,6 +18,10 @@ public class GooglePlacesTarget {
     return Bundle.module.url(forResource: "ru", withExtension: "lproj")
   }
   
+  public static func getFile(_ resource: String, withExtension ext: String) -> URL? {
+    return Bundle.module.url(forResource: resource, withExtension: ext)
+  }
+  
   public static func getNb() -> URL? {
     return Bundle.module.url(forResource: "nb", withExtension: "lproj")
   }
