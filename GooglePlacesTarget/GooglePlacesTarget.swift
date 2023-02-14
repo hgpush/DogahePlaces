@@ -13,4 +13,8 @@ public class GooglePlacesTarget {
   public static func getImageUrl() -> URL? {
     return Bundle.module.url(forResource: "ss", withExtension: "png")
   }
+  
+  public static func getBundleUrl() -> URL? {
+    return Bundle.module.url(forResource: "Resource", withExtension: "bundle")
+  }
 }
