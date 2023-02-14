@@ -15,6 +15,6 @@ public class GooglePlacesTarget {
   }
   
   public static func getBundleUrl() -> URL? {
-    return Bundle.module.url(forResource: "Resource", withExtension: "bundle")
+    return Bundle.module.url(forResource: "GooglePlaces", withExtension: "bundle")
   }
 }
