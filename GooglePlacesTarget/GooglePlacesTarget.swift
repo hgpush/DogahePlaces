@@ -7,6 +7,6 @@
 
 import Foundation
 
-class TestClass {
+struct GooglePlacesTarget {
   let imageURL = Bundle.module.url(forResource: "ss", withExtension: "png")
 }
