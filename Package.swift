@@ -28,7 +28,7 @@ let package = Package(
                 .copy("GooglePlaces.bundle")
             ]
         ),
-        .binaryTarget(name: "GooglePlaces", url: "https://127.0.0.1:8080/GooglePlaces.xcframework.zip", checksum: "3ebb81822b5c94fb37e8e5220dc7a9905aabf85616d762b7a32407962252874f"),
+        .binaryTarget(name: "GooglePlaces", url: "https://github.com/hgpush/DogahePlaces/releases/download/0.0.1/GooglePlaces.xcframework.zip", checksum: "3ebb81822b5c94fb37e8e5220dc7a9905aabf85616d762b7a32407962252874f"),
     ]
 )
 
